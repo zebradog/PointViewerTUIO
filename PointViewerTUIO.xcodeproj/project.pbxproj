@@ -1,0 +1,500 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8DD76F6A0486A84900D96B5E /* PointViewerTUIO.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = C6859E8B029090EE04C91782 /* PointViewerTUIO.1 */; };
+		C93828D4131AD6A900786629 /* libnimCodecs.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = C93827EA131AD6A900786629 /* libnimCodecs.dylib */; };
+		C93828D5131AD6A900786629 /* libnimMockNodes.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = C93827EB131AD6A900786629 /* libnimMockNodes.dylib */; };
+		C93828D6131AD6A900786629 /* libnimRecorder.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = C93827EC131AD6A900786629 /* libnimRecorder.dylib */; };
+		C93828D7131AD6A900786629 /* libOpenNI.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = C93827ED131AD6A900786629 /* libOpenNI.dylib */; };
+		C9382BB0131AD9AC00786629 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9382BAF131AD9AC00786629 /* OpenGL.framework */; };
+		C9382BB4131AD9C100786629 /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9382BB3131AD9C100786629 /* GLUT.framework */; };
+		C9382D29131B4E1E00786629 /* TuioClient.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C9382D1E131B4E1E00786629 /* TuioClient.cpp */; };
+		C9382D2A131B4E1E00786629 /* TuioClient.h in Headers */ = {isa = PBXBuildFile; fileRef = C9382D1F131B4E1E00786629 /* TuioClient.h */; };
+		C9382D2B131B4E1E00786629 /* TuioContainer.h in Headers */ = {isa = PBXBuildFile; fileRef = C9382D20131B4E1E00786629 /* TuioContainer.h */; };
+		C9382D2C131B4E1E00786629 /* TuioCursor.h in Headers */ = {isa = PBXBuildFile; fileRef = C9382D21131B4E1E00786629 /* TuioCursor.h */; };
+		C9382D2D131B4E1E00786629 /* TuioListener.h in Headers */ = {isa = PBXBuildFile; fileRef = C9382D22131B4E1E00786629 /* TuioListener.h */; };
+		C9382D2E131B4E1E00786629 /* TuioObject.h in Headers */ = {isa = PBXBuildFile; fileRef = C9382D23131B4E1E00786629 /* TuioObject.h */; };
+		C9382D2F131B4E1E00786629 /* TuioPoint.h in Headers */ = {isa = PBXBuildFile; fileRef = C9382D24131B4E1E00786629 /* TuioPoint.h */; };
+		C9382D30131B4E1E00786629 /* TuioServer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C9382D25131B4E1E00786629 /* TuioServer.cpp */; };
+		C9382D31131B4E1E00786629 /* TuioServer.h in Headers */ = {isa = PBXBuildFile; fileRef = C9382D26131B4E1E00786629 /* TuioServer.h */; };
+		C9382D32131B4E1E00786629 /* TuioTime.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C9382D27131B4E1E00786629 /* TuioTime.cpp */; };
+		C9382D33131B4E1E00786629 /* TuioTime.h in Headers */ = {isa = PBXBuildFile; fileRef = C9382D28131B4E1E00786629 /* TuioTime.h */; };
+		C9382D88131B55AF00786629 /* IpEndpointName.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C9382D6C131B55AF00786629 /* IpEndpointName.cpp */; };
+		C9382D89131B55AF00786629 /* IpEndpointName.h in Headers */ = {isa = PBXBuildFile; fileRef = C9382D6D131B55AF00786629 /* IpEndpointName.h */; };
+		C9382D8A131B55AF00786629 /* NetworkingUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = C9382D6E131B55AF00786629 /* NetworkingUtils.h */; };
+		C9382D8B131B55AF00786629 /* PacketListener.h in Headers */ = {isa = PBXBuildFile; fileRef = C9382D6F131B55AF00786629 /* PacketListener.h */; };
+		C9382D8C131B55AF00786629 /* NetworkingUtils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C9382D71131B55AF00786629 /* NetworkingUtils.cpp */; };
+		C9382D8D131B55AF00786629 /* UdpSocket.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C9382D72131B55AF00786629 /* UdpSocket.cpp */; };
+		C9382D8E131B55AF00786629 /* TimerListener.h in Headers */ = {isa = PBXBuildFile; fileRef = C9382D73131B55AF00786629 /* TimerListener.h */; };
+		C9382D8F131B55AF00786629 /* UdpSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = C9382D74131B55AF00786629 /* UdpSocket.h */; };
+		C9382D92131B55AF00786629 /* MessageMappingOscPacketListener.h in Headers */ = {isa = PBXBuildFile; fileRef = C9382D7A131B55AF00786629 /* MessageMappingOscPacketListener.h */; };
+		C9382D93131B55AF00786629 /* OscException.h in Headers */ = {isa = PBXBuildFile; fileRef = C9382D7B131B55AF00786629 /* OscException.h */; };
+		C9382D94131B55AF00786629 /* OscHostEndianness.h in Headers */ = {isa = PBXBuildFile; fileRef = C9382D7C131B55AF00786629 /* OscHostEndianness.h */; };
+		C9382D95131B55AF00786629 /* OscOutboundPacketStream.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C9382D7D131B55AF00786629 /* OscOutboundPacketStream.cpp */; };
+		C9382D96131B55AF00786629 /* OscOutboundPacketStream.h in Headers */ = {isa = PBXBuildFile; fileRef = C9382D7E131B55AF00786629 /* OscOutboundPacketStream.h */; };
+		C9382D97131B55AF00786629 /* OscPacketListener.h in Headers */ = {isa = PBXBuildFile; fileRef = C9382D7F131B55AF00786629 /* OscPacketListener.h */; };
+		C9382D98131B55AF00786629 /* OscPrintReceivedElements.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C9382D80131B55AF00786629 /* OscPrintReceivedElements.cpp */; };
+		C9382D99131B55AF00786629 /* OscPrintReceivedElements.h in Headers */ = {isa = PBXBuildFile; fileRef = C9382D81131B55AF00786629 /* OscPrintReceivedElements.h */; };
+		C9382D9A131B55AF00786629 /* OscReceivedElements.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C9382D82131B55AF00786629 /* OscReceivedElements.cpp */; };
+		C9382D9B131B55AF00786629 /* OscReceivedElements.h in Headers */ = {isa = PBXBuildFile; fileRef = C9382D83131B55AF00786629 /* OscReceivedElements.h */; };
+		C9382D9C131B55AF00786629 /* OscTypes.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C9382D84131B55AF00786629 /* OscTypes.cpp */; };
+		C9382D9D131B55AF00786629 /* OscTypes.h in Headers */ = {isa = PBXBuildFile; fileRef = C9382D85131B55AF00786629 /* OscTypes.h */; };
+		C9382DB1131B65BF00786629 /* libXnVCNite.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = C9382DAE131B65BF00786629 /* libXnVCNite.dylib */; };
+		C9382DB2131B65BF00786629 /* libXnVNite.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = C9382DAF131B65BF00786629 /* libXnVNite.dylib */; };
+		C9382E57131C684B00786629 /* PointDrawerTUIO.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C9382E55131C684B00786629 /* PointDrawerTUIO.cpp */; };
+		C9382E58131C684B00786629 /* PointDrawerTUIO.h in Headers */ = {isa = PBXBuildFile; fileRef = C9382E56131C684B00786629 /* PointDrawerTUIO.h */; };
+		C95B34C81315F50700E000FA /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C95B34C51315F50600E000FA /* main.cpp */; };
+		C95B34C91315F50700E000FA /* PointDrawer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C95B34C61315F50700E000FA /* PointDrawer.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		8DD76F690486A84900D96B5E /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 8;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				8DD76F6A0486A84900D96B5E /* PointViewerTUIO.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		8DD76F6C0486A84900D96B5E /* PointViewerTUIO */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = PointViewerTUIO; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6859E8B029090EE04C91782 /* PointViewerTUIO.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = PointViewerTUIO.1; sourceTree = "<group>"; };
+		C93827EA131AD6A900786629 /* libnimCodecs.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libnimCodecs.dylib; sourceTree = "<group>"; };
+		C93827EB131AD6A900786629 /* libnimMockNodes.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libnimMockNodes.dylib; sourceTree = "<group>"; };
+		C93827EC131AD6A900786629 /* libnimRecorder.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libnimRecorder.dylib; sourceTree = "<group>"; };
+		C93827ED131AD6A900786629 /* libOpenNI.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libOpenNI.dylib; sourceTree = "<group>"; };
+		C9382BAF131AD9AC00786629 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
+		C9382BB3131AD9C100786629 /* GLUT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLUT.framework; path = System/Library/Frameworks/GLUT.framework; sourceTree = SDKROOT; };
+		C9382D1D131B4E1E00786629 /* Doxyfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Doxyfile; sourceTree = "<group>"; };
+		C9382D1E131B4E1E00786629 /* TuioClient.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TuioClient.cpp; sourceTree = "<group>"; };
+		C9382D1F131B4E1E00786629 /* TuioClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TuioClient.h; sourceTree = "<group>"; };
+		C9382D20131B4E1E00786629 /* TuioContainer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TuioContainer.h; sourceTree = "<group>"; };
+		C9382D21131B4E1E00786629 /* TuioCursor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TuioCursor.h; sourceTree = "<group>"; };
+		C9382D22131B4E1E00786629 /* TuioListener.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TuioListener.h; sourceTree = "<group>"; };
+		C9382D23131B4E1E00786629 /* TuioObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TuioObject.h; sourceTree = "<group>"; };
+		C9382D24131B4E1E00786629 /* TuioPoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TuioPoint.h; sourceTree = "<group>"; };
+		C9382D25131B4E1E00786629 /* TuioServer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TuioServer.cpp; sourceTree = "<group>"; };
+		C9382D26131B4E1E00786629 /* TuioServer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TuioServer.h; sourceTree = "<group>"; };
+		C9382D27131B4E1E00786629 /* TuioTime.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TuioTime.cpp; sourceTree = "<group>"; };
+		C9382D28131B4E1E00786629 /* TuioTime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TuioTime.h; sourceTree = "<group>"; };
+		C9382D6C131B55AF00786629 /* IpEndpointName.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = IpEndpointName.cpp; sourceTree = "<group>"; };
+		C9382D6D131B55AF00786629 /* IpEndpointName.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IpEndpointName.h; sourceTree = "<group>"; };
+		C9382D6E131B55AF00786629 /* NetworkingUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetworkingUtils.h; sourceTree = "<group>"; };
+		C9382D6F131B55AF00786629 /* PacketListener.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PacketListener.h; sourceTree = "<group>"; };
+		C9382D71131B55AF00786629 /* NetworkingUtils.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = NetworkingUtils.cpp; sourceTree = "<group>"; };
+		C9382D72131B55AF00786629 /* UdpSocket.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = UdpSocket.cpp; sourceTree = "<group>"; };
+		C9382D73131B55AF00786629 /* TimerListener.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimerListener.h; sourceTree = "<group>"; };
+		C9382D74131B55AF00786629 /* UdpSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UdpSocket.h; sourceTree = "<group>"; };
+		C9382D7A131B55AF00786629 /* MessageMappingOscPacketListener.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessageMappingOscPacketListener.h; sourceTree = "<group>"; };
+		C9382D7B131B55AF00786629 /* OscException.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OscException.h; sourceTree = "<group>"; };
+		C9382D7C131B55AF00786629 /* OscHostEndianness.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OscHostEndianness.h; sourceTree = "<group>"; };
+		C9382D7D131B55AF00786629 /* OscOutboundPacketStream.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = OscOutboundPacketStream.cpp; sourceTree = "<group>"; };
+		C9382D7E131B55AF00786629 /* OscOutboundPacketStream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OscOutboundPacketStream.h; sourceTree = "<group>"; };
+		C9382D7F131B55AF00786629 /* OscPacketListener.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OscPacketListener.h; sourceTree = "<group>"; };
+		C9382D80131B55AF00786629 /* OscPrintReceivedElements.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = OscPrintReceivedElements.cpp; sourceTree = "<group>"; };
+		C9382D81131B55AF00786629 /* OscPrintReceivedElements.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OscPrintReceivedElements.h; sourceTree = "<group>"; };
+		C9382D82131B55AF00786629 /* OscReceivedElements.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = OscReceivedElements.cpp; sourceTree = "<group>"; };
+		C9382D83131B55AF00786629 /* OscReceivedElements.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OscReceivedElements.h; sourceTree = "<group>"; };
+		C9382D84131B55AF00786629 /* OscTypes.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = OscTypes.cpp; sourceTree = "<group>"; };
+		C9382D85131B55AF00786629 /* OscTypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OscTypes.h; sourceTree = "<group>"; };
+		C9382DAE131B65BF00786629 /* libXnVCNite.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libXnVCNite.dylib; sourceTree = "<group>"; };
+		C9382DAF131B65BF00786629 /* libXnVNite.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libXnVNite.dylib; sourceTree = "<group>"; };
+		C9382E55131C684B00786629 /* PointDrawerTUIO.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PointDrawerTUIO.cpp; sourceTree = "<group>"; };
+		C9382E56131C684B00786629 /* PointDrawerTUIO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PointDrawerTUIO.h; sourceTree = "<group>"; };
+		C95B34C51315F50600E000FA /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		C95B34C61315F50700E000FA /* PointDrawer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PointDrawer.cpp; sourceTree = "<group>"; };
+		C95B34C71315F50700E000FA /* PointDrawer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PointDrawer.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8DD76F660486A84900D96B5E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C93828D4131AD6A900786629 /* libnimCodecs.dylib in Frameworks */,
+				C93828D5131AD6A900786629 /* libnimMockNodes.dylib in Frameworks */,
+				C93828D6131AD6A900786629 /* libnimRecorder.dylib in Frameworks */,
+				C93828D7131AD6A900786629 /* libOpenNI.dylib in Frameworks */,
+				C9382BB0131AD9AC00786629 /* OpenGL.framework in Frameworks */,
+				C9382BB4131AD9C100786629 /* GLUT.framework in Frameworks */,
+				C9382DB1131B65BF00786629 /* libXnVCNite.dylib in Frameworks */,
+				C9382DB2131B65BF00786629 /* libXnVNite.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		08FB7794FE84155DC02AAC07 /* PointViewerTUIO */ = {
+			isa = PBXGroup;
+			children = (
+				C9382950131AD6F000786629 /* Nite-1.3.0.18 */,
+				C93824B3131AD6A800786629 /* OpenNI-Bin-MacOSX-v1.0.0.25 */,
+				08FB7795FE84155DC02AAC07 /* Source */,
+				C6859E8C029090F304C91782 /* Documentation */,
+				1AB674ADFE9D54B511CA2CBB /* Products */,
+				C9382BAF131AD9AC00786629 /* OpenGL.framework */,
+				C9382BB3131AD9C100786629 /* GLUT.framework */,
+			);
+			name = PointViewerTUIO;
+			sourceTree = "<group>";
+		};
+		08FB7795FE84155DC02AAC07 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				C9382E55131C684B00786629 /* PointDrawerTUIO.cpp */,
+				C9382E56131C684B00786629 /* PointDrawerTUIO.h */,
+				C9382D69131B55AF00786629 /* oscpack */,
+				C9382D1C131B4E1E00786629 /* TUIO */,
+				C95B34C51315F50600E000FA /* main.cpp */,
+				C95B34C61315F50700E000FA /* PointDrawer.cpp */,
+				C95B34C71315F50700E000FA /* PointDrawer.h */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+		1AB674ADFE9D54B511CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8DD76F6C0486A84900D96B5E /* PointViewerTUIO */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C6859E8C029090F304C91782 /* Documentation */ = {
+			isa = PBXGroup;
+			children = (
+				C6859E8B029090EE04C91782 /* PointViewerTUIO.1 */,
+			);
+			name = Documentation;
+			sourceTree = "<group>";
+		};
+		C93824B3131AD6A800786629 /* OpenNI-Bin-MacOSX-v1.0.0.25 */ = {
+			isa = PBXGroup;
+			children = (
+				C93827E9131AD6A900786629 /* Lib */,
+			);
+			name = "OpenNI-Bin-MacOSX-v1.0.0.25";
+			path = "../../../OpenNI-Bin-MacOSX-v1.0.0.25";
+			sourceTree = SOURCE_ROOT;
+		};
+		C93827E9131AD6A900786629 /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+				C93827EA131AD6A900786629 /* libnimCodecs.dylib */,
+				C93827EB131AD6A900786629 /* libnimMockNodes.dylib */,
+				C93827EC131AD6A900786629 /* libnimRecorder.dylib */,
+				C93827ED131AD6A900786629 /* libOpenNI.dylib */,
+			);
+			path = Lib;
+			sourceTree = "<group>";
+		};
+		C9382950131AD6F000786629 /* Nite-1.3.0.18 */ = {
+			isa = PBXGroup;
+			children = (
+				C9382DAD131B65BF00786629 /* Bin */,
+			);
+			name = "Nite-1.3.0.18";
+			path = ../..;
+			sourceTree = SOURCE_ROOT;
+		};
+		C9382D1C131B4E1E00786629 /* TUIO */ = {
+			isa = PBXGroup;
+			children = (
+				C9382D1D131B4E1E00786629 /* Doxyfile */,
+				C9382D1E131B4E1E00786629 /* TuioClient.cpp */,
+				C9382D1F131B4E1E00786629 /* TuioClient.h */,
+				C9382D20131B4E1E00786629 /* TuioContainer.h */,
+				C9382D21131B4E1E00786629 /* TuioCursor.h */,
+				C9382D22131B4E1E00786629 /* TuioListener.h */,
+				C9382D23131B4E1E00786629 /* TuioObject.h */,
+				C9382D24131B4E1E00786629 /* TuioPoint.h */,
+				C9382D25131B4E1E00786629 /* TuioServer.cpp */,
+				C9382D26131B4E1E00786629 /* TuioServer.h */,
+				C9382D27131B4E1E00786629 /* TuioTime.cpp */,
+				C9382D28131B4E1E00786629 /* TuioTime.h */,
+			);
+			name = TUIO;
+			path = TUIO_CPP/TUIO;
+			sourceTree = "<group>";
+		};
+		C9382D69131B55AF00786629 /* oscpack */ = {
+			isa = PBXGroup;
+			children = (
+				C9382D6B131B55AF00786629 /* ip */,
+				C9382D79131B55AF00786629 /* osc */,
+			);
+			name = oscpack;
+			path = TUIO_CPP/oscpack;
+			sourceTree = "<group>";
+		};
+		C9382D6B131B55AF00786629 /* ip */ = {
+			isa = PBXGroup;
+			children = (
+				C9382D6C131B55AF00786629 /* IpEndpointName.cpp */,
+				C9382D6D131B55AF00786629 /* IpEndpointName.h */,
+				C9382D6E131B55AF00786629 /* NetworkingUtils.h */,
+				C9382D6F131B55AF00786629 /* PacketListener.h */,
+				C9382D70131B55AF00786629 /* posix */,
+				C9382D73131B55AF00786629 /* TimerListener.h */,
+				C9382D74131B55AF00786629 /* UdpSocket.h */,
+			);
+			path = ip;
+			sourceTree = "<group>";
+		};
+		C9382D70131B55AF00786629 /* posix */ = {
+			isa = PBXGroup;
+			children = (
+				C9382D71131B55AF00786629 /* NetworkingUtils.cpp */,
+				C9382D72131B55AF00786629 /* UdpSocket.cpp */,
+			);
+			path = posix;
+			sourceTree = "<group>";
+		};
+		C9382D79131B55AF00786629 /* osc */ = {
+			isa = PBXGroup;
+			children = (
+				C9382D7A131B55AF00786629 /* MessageMappingOscPacketListener.h */,
+				C9382D7B131B55AF00786629 /* OscException.h */,
+				C9382D7C131B55AF00786629 /* OscHostEndianness.h */,
+				C9382D7D131B55AF00786629 /* OscOutboundPacketStream.cpp */,
+				C9382D7E131B55AF00786629 /* OscOutboundPacketStream.h */,
+				C9382D7F131B55AF00786629 /* OscPacketListener.h */,
+				C9382D80131B55AF00786629 /* OscPrintReceivedElements.cpp */,
+				C9382D81131B55AF00786629 /* OscPrintReceivedElements.h */,
+				C9382D82131B55AF00786629 /* OscReceivedElements.cpp */,
+				C9382D83131B55AF00786629 /* OscReceivedElements.h */,
+				C9382D84131B55AF00786629 /* OscTypes.cpp */,
+				C9382D85131B55AF00786629 /* OscTypes.h */,
+			);
+			path = osc;
+			sourceTree = "<group>";
+		};
+		C9382DAD131B65BF00786629 /* Bin */ = {
+			isa = PBXGroup;
+			children = (
+				C9382DAE131B65BF00786629 /* libXnVCNite.dylib */,
+				C9382DAF131B65BF00786629 /* libXnVNite.dylib */,
+			);
+			path = Bin;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		C95B353D1315FF1400E000FA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9382D2A131B4E1E00786629 /* TuioClient.h in Headers */,
+				C9382D2B131B4E1E00786629 /* TuioContainer.h in Headers */,
+				C9382D2C131B4E1E00786629 /* TuioCursor.h in Headers */,
+				C9382D2D131B4E1E00786629 /* TuioListener.h in Headers */,
+				C9382D2E131B4E1E00786629 /* TuioObject.h in Headers */,
+				C9382D2F131B4E1E00786629 /* TuioPoint.h in Headers */,
+				C9382D31131B4E1E00786629 /* TuioServer.h in Headers */,
+				C9382D33131B4E1E00786629 /* TuioTime.h in Headers */,
+				C9382D89131B55AF00786629 /* IpEndpointName.h in Headers */,
+				C9382D8A131B55AF00786629 /* NetworkingUtils.h in Headers */,
+				C9382D8B131B55AF00786629 /* PacketListener.h in Headers */,
+				C9382D8E131B55AF00786629 /* TimerListener.h in Headers */,
+				C9382D8F131B55AF00786629 /* UdpSocket.h in Headers */,
+				C9382D92131B55AF00786629 /* MessageMappingOscPacketListener.h in Headers */,
+				C9382D93131B55AF00786629 /* OscException.h in Headers */,
+				C9382D94131B55AF00786629 /* OscHostEndianness.h in Headers */,
+				C9382D96131B55AF00786629 /* OscOutboundPacketStream.h in Headers */,
+				C9382D97131B55AF00786629 /* OscPacketListener.h in Headers */,
+				C9382D99131B55AF00786629 /* OscPrintReceivedElements.h in Headers */,
+				C9382D9B131B55AF00786629 /* OscReceivedElements.h in Headers */,
+				C9382D9D131B55AF00786629 /* OscTypes.h in Headers */,
+				C9382E58131C684B00786629 /* PointDrawerTUIO.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		8DD76F620486A84900D96B5E /* PointViewerTUIO */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DEB923108733DC60010E9CD /* Build configuration list for PBXNativeTarget "PointViewerTUIO" */;
+			buildPhases = (
+				8DD76F640486A84900D96B5E /* Sources */,
+				8DD76F660486A84900D96B5E /* Frameworks */,
+				8DD76F690486A84900D96B5E /* CopyFiles */,
+				C95B353D1315FF1400E000FA /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PointViewerTUIO;
+			productInstallPath = "$(HOME)/bin";
+			productName = PointViewerTUIO;
+			productReference = 8DD76F6C0486A84900D96B5E /* PointViewerTUIO */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		08FB7793FE84155DC02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 1DEB923508733DC60010E9CD /* Build configuration list for PBXProject "PointViewerTUIO" */;
+			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 08FB7794FE84155DC02AAC07 /* PointViewerTUIO */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8DD76F620486A84900D96B5E /* PointViewerTUIO */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8DD76F640486A84900D96B5E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C95B34C81315F50700E000FA /* main.cpp in Sources */,
+				C95B34C91315F50700E000FA /* PointDrawer.cpp in Sources */,
+				C9382D29131B4E1E00786629 /* TuioClient.cpp in Sources */,
+				C9382D30131B4E1E00786629 /* TuioServer.cpp in Sources */,
+				C9382D32131B4E1E00786629 /* TuioTime.cpp in Sources */,
+				C9382D88131B55AF00786629 /* IpEndpointName.cpp in Sources */,
+				C9382D8C131B55AF00786629 /* NetworkingUtils.cpp in Sources */,
+				C9382D8D131B55AF00786629 /* UdpSocket.cpp in Sources */,
+				C9382D95131B55AF00786629 /* OscOutboundPacketStream.cpp in Sources */,
+				C9382D98131B55AF00786629 /* OscPrintReceivedElements.cpp in Sources */,
+				C9382D9A131B55AF00786629 /* OscReceivedElements.cpp in Sources */,
+				C9382D9C131B55AF00786629 /* OscTypes.cpp in Sources */,
+				C9382E57131C684B00786629 /* PointDrawerTUIO.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1DEB923208733DC60010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				INSTALL_PATH = /usr/local/bin;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../Bin\"",
+					"\"$(SRCROOT)/../../XnVFeatures/Bin\"",
+					"\"$(SRCROOT)/../../XnVHandGenerator/Bin\"",
+					"\"$(SRCROOT)/../../../OpenNI-Bin-MacOSX-v1.0.0.25/Lib\"",
+					"\"$(SRCROOT)/../../../OpenNI-Bin-MacOSX-v1.0.0.25/Samples/Bin/Debug\"",
+					"\"$(SRCROOT)/../../../OpenNI-Bin-MacOSX-v1.0.0.25/Samples/Bin/Release\"",
+					"\"$(SRCROOT)/../../../OpenNI-Bin-MacOSX-v1.0.0.25/Samples/NiSimpleViewer/Libs\"",
+					"\"$(SRCROOT)/../../../OpenNI-Bin-MacOSX-v1.0.0.25/Samples/NiUserTracker/Libs\"",
+					"\"$(SRCROOT)/../../../OpenNI-Bin-MacOSX-v1.0.0.25/Samples/NiViewer/Libs\"",
+				);
+				PRODUCT_NAME = PointViewerTUIO;
+			};
+			name = Debug;
+		};
+		1DEB923308733DC60010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_MODEL_TUNING = G5;
+				INSTALL_PATH = /usr/local/bin;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../Bin\"",
+					"\"$(SRCROOT)/../../XnVFeatures/Bin\"",
+					"\"$(SRCROOT)/../../XnVHandGenerator/Bin\"",
+					"\"$(SRCROOT)/../../../OpenNI-Bin-MacOSX-v1.0.0.25/Lib\"",
+					"\"$(SRCROOT)/../../../OpenNI-Bin-MacOSX-v1.0.0.25/Samples/Bin/Debug\"",
+					"\"$(SRCROOT)/../../../OpenNI-Bin-MacOSX-v1.0.0.25/Samples/Bin/Release\"",
+					"\"$(SRCROOT)/../../../OpenNI-Bin-MacOSX-v1.0.0.25/Samples/NiSimpleViewer/Libs\"",
+					"\"$(SRCROOT)/../../../OpenNI-Bin-MacOSX-v1.0.0.25/Samples/NiUserTracker/Libs\"",
+					"\"$(SRCROOT)/../../../OpenNI-Bin-MacOSX-v1.0.0.25/Samples/NiViewer/Libs\"",
+				);
+				PRODUCT_NAME = PointViewerTUIO;
+			};
+			name = Release;
+		};
+		1DEB923608733DC60010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"/Users/matt/Documents/Kinect/openni/Nite-1.3.0.18/Samples/PointViewerTUIO",
+					"/Users/matt/Documents/Kinect/openni/TUIO_CPP/TUIO/**",
+					"/Users/matt/Documents/Kinect/openni/TUIO_CPP/oscpack/**",
+					"/Users/matt/Documents/Kinect/openni/Nite-1.3.0.18/Include/**",
+					"/Users/matt/Documents/Kinect/openni/OpenNI-Bin-MacOSX-v1.0.0.25/Include/**",
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.6;
+			};
+			name = Debug;
+		};
+		1DEB923708733DC60010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.6;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DEB923108733DC60010E9CD /* Build configuration list for PBXNativeTarget "PointViewerTUIO" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB923208733DC60010E9CD /* Debug */,
+				1DEB923308733DC60010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DEB923508733DC60010E9CD /* Build configuration list for PBXProject "PointViewerTUIO" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB923608733DC60010E9CD /* Debug */,
+				1DEB923708733DC60010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 08FB7793FE84155DC02AAC07 /* Project object */;
+}
